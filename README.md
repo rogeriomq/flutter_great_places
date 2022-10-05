@@ -1,20 +1,16 @@
 # great_places
 
-A new Flutter project.
+Flutter project for component studies and setting with the dart language and Flutter framework. 
 
-## Getting Started
+#### What was achieved with this study:
+- Provider;
+- Camera access;
+- Maps, get current location and select location on map;
+- Database - SQLite(sqfite);
 
-This project is a starting point for a Flutter application.
+**And lots of fun;**
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+_Long live the flutter, very good experience so far_ 🙌🏽🥰.
 
 # Environment Variables
 List of variables used in the app.
