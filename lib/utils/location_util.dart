@@ -3,7 +3,6 @@ import 'dart:convert';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:http/http.dart' as http;
 
-// const googleApiKey = 'AIzaSyAV8iaKfcbkgt-FfMqtV9N-d4U16g97DF4';
 const googleApiKey = String.fromEnvironment('GOOGLE_API_KEY');
 
 class LocationUtil {
