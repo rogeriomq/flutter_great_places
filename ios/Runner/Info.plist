@@ -50,8 +50,12 @@
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string></string>
 	<key>NSCameraUsageDescription</key>
-	<string></string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string></string>
+	<string>Need to open your camera</string>
+	<!-- <key>NSMicrophoneUsageDescription</key>
+	<string>Need to access your microphone</string> -->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Need to get your location!</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Need to get your location!</string>
 </dict>
 </plist>

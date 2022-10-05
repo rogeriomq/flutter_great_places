@@ -26,9 +26,10 @@ class MapScreen extends StatefulWidget {
 }
 
 class _MapScreenState extends State<MapScreen> {
-  late LatLng _pickedPosition;
+  LatLng? _pickedPosition;
 
   void _selectPosition(LatLng position) {
+    debugPrint(position.toString());
     setState(() {
       _pickedPosition = position;
     });
@@ -65,7 +66,8 @@ class _MapScreenState extends State<MapScreen> {
             : {
                 Marker(
                   markerId: const MarkerId('p1'),
-                  position: _pickedPosition,
+                  position:
+                      _pickedPosition ?? widget.initialLocation.toLatLng(),
                 ),
               },
       ),
